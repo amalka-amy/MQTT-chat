@@ -1,7 +1,7 @@
 const client = new Paho.MQTT.Client(
 	'd57a0d1c39d54550b147b58411d86743.s2.eu.hivemq.cloud',
 	8884,
-	'tablecontrol',
+	'1c3d9ff0-1887-45ad-a0b4-e8fbe1860a0a',
 )
 
 client.onConnectionLost = onConnectionLost

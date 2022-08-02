@@ -15,15 +15,26 @@
 			src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"
 			defer
 		></script>
-		<script src="index.js" defer></script>
+		<script src="send.js" defer></script>
 	</head>
 	<body>
-		<div class="mt-4 container text-center" id="connect">
-			<button type="button" class="btn btn-primary">Připojit se</button>
+		<div class="container">
+			<h1 class="text-center my-5">Czechichat</h1>
+			<form class="row g-3 justify-content-center">
+				<div class="col-auto">
+					<input
+						type="text"
+						class="form-control"
+						id="message"
+						autocomplete="off"
+						placeholder="Zpráva"
+						required
+					/>
+				</div>
+				<div class="col-auto">
+					<button type="submit" class="btn btn-primary mb-3">Odeslat</button>
+				</div>
+			</form>
 		</div>
-		<div class="container mt-3 mb-5">
-			<div class="avatars"></div>
-		</div>
-		<div class="container" id="messages"></div>
 	</body>
 </html>
