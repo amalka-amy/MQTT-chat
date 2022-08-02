@@ -20,4 +20,4 @@ Vytvoř webovou stránku s textovým vstupem a tlačítkem pro odeslání, kter�
 
 - Přihlas se u brockera k odběru všech zpráv a zprávy vypiš na stránku pod formulář.
 
-- Přidej zvukové upozornění, které se přehraje při přijetí každé nové zprávy. Zvuk zdarma si můžeš vybrat třeba na [freesound.org](https://freesound.org/). Přidej ho do projektové složky. V JavaScriptu ho přehraješ pomocí `new Audio('muj-zvuk.mp3').play()`.
+- Přidej zvukové upozornění, které se přehraje při přijetí každé nové zprávy. Zvuk zdarma si můžeš vybrat třeba na [freesound.org](https://freesound.org/). Přidej ho do projektové složky. V JavaScriptu ho přehraješ pomocí `new Audio('zvuk.mp3').play()`.
