@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1{
+    margin: top 20%;
+}
+
+button{
+    padding: 10px;
+    background-color:  rgb(141, 113, 113);
+    font-size: 15px;
+    border-radius: 15px;
+}
+p{
+    display:grid;
+    place-content: center;
+    grid-template-columns: 200px 100px;
+    grid-template-rows: auto auto;
+}
+
+#policko{
+    border-radius:15px;
+    font-size:medium;
+}
